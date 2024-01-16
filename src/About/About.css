@@ -4,7 +4,7 @@
     overflow: visible!important;
 }
 .About:hover a{
-color: red!important;
+color: rgb(91, 0, 144)!important;
 }
 .About::after{
     display: none;
@@ -12,7 +12,7 @@ color: red!important;
 .About .dropdown {
     position:absolute !important;
     overflow: visible !important;
-    background-color: #00000000;
+    background-color: #05b10200;
   z-index: 1;
   margin-top: 5px;
   width: 200px;
@@ -27,4 +27,8 @@ color: red!important;
 .About{
     overflow: visible !important; 
    
+}
+@media screen and (max-width:600px) {
+
+    
 }

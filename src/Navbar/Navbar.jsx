@@ -23,7 +23,11 @@ function Navbar(){
             <li><Link to="/">Home</Link></li>
             <li><a href="#">Solutions</a></li>
             <li><Link to="/Portfolio">Portfolio</Link></li>
-            <li className="About"><Link to="/About">About</Link>
+           
+            <li><a href="#">Researches</a>
+            </li>
+            <li><Link to="/Contact">Contact</Link></li>
+             <li className="About"><Link to="/About">About</Link>
             <div className="dropdown">
                 <ul>
                 <li><Link to='/our'>Our Journey</Link></li>
@@ -34,9 +38,6 @@ function Navbar(){
                 </ul>
             </div>
             </li>
-            <li><a href="#">Researches</a>
-            </li>
-            <li><Link to="/Contact">Contact</Link></li>
         </div>
 
     </nav>
