@@ -1,7 +1,8 @@
 import React from "react";
 import "./Contact.css"
+import Open1 from "../OpeningScene/open1";
 function Contact(){
-    return(<><div id="page1">
+    return(<><Open1></Open1><div id="page1">
      <section class="contact" id="contact">
             <h1 class="heading">
                 <span>c</span>

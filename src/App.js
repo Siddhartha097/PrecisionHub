@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Open1></Open1>
       <Navbar></Navbar>
       <Routes>
         <Route path='/Portfolio' element={<Portfolio></Portfolio>}></Route>

@@ -40,9 +40,6 @@ function Navbar(){
         </div>
 
     </nav>
-    <body>
-
-    </body>
 </div>)
 }
 export default Navbar
