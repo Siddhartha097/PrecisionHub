@@ -202,9 +202,8 @@ function Page1(){
         <div id="footer-bottom"></div>
     </div>
     <div class="copyright">
-        <h4 style={{fontSize:'18'}}>All Copyrights Reserved by PRECISIONHUB IT INDUSTRIES PRIVATE LIMITED. CIN: U62099WB2023PTC264926. THANK
-            YOU. VISIT AGAIN.</h4><br/>
-        <h5 style={{fontSize:'14'}}>PrecisionHub IT Industries Private Limited: Since : 2023 CIN</h5>
+        <h4 >All Copyrights Reserved by PRECISIONHUB IT INDUSTRIES PRIVATE LIMITED. CIN: U62099WB2023PTC264926</h4>
+        {/* <h4 >THANK YOU. VISIT AGAIN.</h4> */}
     </div>
 
     <div id="full-screen"></div>

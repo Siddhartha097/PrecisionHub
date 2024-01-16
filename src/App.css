@@ -150,7 +150,7 @@ nav h3{
 }
 
 #hero-shape-1 {
-  background-color: #1C407F;
+  background: linear-gradient(to top right, #1C407F, rgba(75, 20, 213, 0.559));
   height: 100%;
   width: 100%;
   filter: blur(12px);
@@ -161,7 +161,7 @@ nav h3{
 }
 
 #hero-shape-2 {
-  background: linear-gradient(#1C407F, #1C407F);
+  background: linear-gradient(to top right, #1C407F, rgba(75, 20, 213, 0.548));
   height: 42vw;
   width: 42vw;
   border-radius: 50%;
@@ -176,7 +176,7 @@ nav h3{
 }
 
 #hero-shape-3 {
-  background: linear-gradient(#1C407F, #1C407F);
+  background: linear-gradient(to top right, #1C407F, rgba(75, 20, 213, 0.521));
   height: 42vw;
   width: 42vw;
   border-radius: 50%;
@@ -385,7 +385,7 @@ nav h3{
 
 /*----Starting of Page 4----*/
 #page4 {
-  height: 60vh;
+  height: 100%;
   width: 100%;
   padding: 9vw 4vw;
   background-color: #efeae3;
@@ -447,7 +447,7 @@ nav h3{
 }
 
 #footer-menu #footermenu-elem {
-  height: 5vw;
+  /* height: 5vw; */
   width: 30px;
   border: 2px solid blue;
   z-index: 9;
@@ -456,13 +456,15 @@ nav h3{
 }
 
 #footer-bottom {
-  border-top: 1px solid #dadada;
+  border-top: 2px solid #dadada;
   height: 10vh;
   width: 100%;
+  
 }
 
 .copyright {
-  height: 6vh;
+  height: max-content;
+  padding: 16px;
   width: 100%;
   position: fixed;
   background-color: #efeae3;
@@ -471,20 +473,13 @@ nav h3{
   bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
-  h4{
-    
-  }
-  h5{
-    
-
-    
-  }
-
+  text-align: center;
+  gap: 10px;
 }
 .copyright h4{
-  font-size: 18px;
+  font-size: 25px;
 }
 .copyright h5{
   font-size: 14px;

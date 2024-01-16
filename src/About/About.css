@@ -1,13 +1,29 @@
-.About:hover::after {
-    background-color: transparent !important;
+/* .About {
+    background: transparent;
+    color: black;
+}
+.About:hover {
+    background: black;
+} */
+
+/* .About:hover::after {
+    background-color: transparent ;
     color: rgba(255, 255, 255, 0) ;
     overflow: visible;
     bottom: 0;
     border-radius: 0;
+} */
+
+/* .About a {
+    color: black !important;
 }
-.About:hover a{
-color: rgb(91, 0, 144)!important;
+
+.About a:hover {
+    color: rgb(229, 224, 232)!important;
 }
+.About a:hover .About{
+    color: rgb(229, 224, 232)!important;
+} */
 .About::after{
     display: none;
     content: "";
@@ -17,21 +33,40 @@ color: rgb(91, 0, 144)!important;
     background-color: black;
     left: 0;
     bottom: -100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     transition: all ease 0.4s;
 }
-.About .dropdown {
+.dropdown {
     position:absolute !important;
     overflow: visible !important;
     background-color: #05b10200;
-  z-index: 1;
-  margin-top: 5px;
-  width: 200px;
+    z-index: 1;
+    margin-top: 5px;
+    width: 200px;
     display: none; 
     transition: all 3s ease;
     left: 0px;
    
 }
+
+.dropdown ul {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    width: 10VW;
+    /* margin-top: 10PX; */
+}
+.dropdown li:hover {
+    background-color: white;
+
+}
+
+.About:hover {
+    background-color: black;
+}
+
 .About:hover .dropdown{
     display: block;
 }
