@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,700;1,600&display=swap');
+:root{
+    --blue:#1C407F;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all .2s linear; 
+}
+
+*::selection{
+    background:var(--blue);
+    color: #fff;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
+
+section{
+   padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding:2.5rem 0;
+}
+
+.heading span{
+    font-size: 3.5rem;
+    background: rgba(255,165,0,.2);
+    color: var(--blue);
+    border-radius: .5rem;
+    padding: .2rem 1rem;
+}
+.heading span.space{
+    background: none;
+
+}
+.btn{
+    display: inline-block;
+    border-radius: 16px;
+    margin-top: 1rem;
+    background: var(--blue);
+    color: #fff;
+    padding: .8rem 3rem;
+    border:.2rem solid var(--blue);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: rgba(255,255,255,.3);
+    color: var(--blue);
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+}
+.contact .row .image img{
+    width: 500px;
+    height: 400px;;
+}
+.contact .row form{
+    flex:1 1 50rem;
+    padding:2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+}
+
+.contact .row form .inputBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact .row form .inputBox input, .contact .row form textarea{
+    width:49%;
+    margin:1rem 0;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    background: #f7f7f7;
+    text-transform: none;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+    width:100%;
+}
+.msg{
+   width: 100%;
+   height: 10%;
+}
+.reachus{
+   display: inline-block;
+   margin-top: 1rem;
+   background: var(--blue);
+   color: #fff;
+   padding: .8rem 3rem;
+   border:.2rem solid var(--blue);
+   width: 100%;
+   font-size: 1.2rem;
+}
+
+body{
+    height: 300rem;
+
+}

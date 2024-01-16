@@ -1,0 +1,30 @@
+.About:hover::after {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0) !important;
+    overflow: visible!important;
+}
+.About:hover a{
+color: red!important;
+}
+.About::after{
+    display: none;
+}
+.About .dropdown {
+    position:absolute !important;
+    overflow: visible !important;
+    background-color: #00000000;
+  z-index: 1;
+  margin-top: 5px;
+  width: 200px;
+    display: none; 
+    transition: all 3s ease;
+    left: 0px;
+   
+}
+.About:hover .dropdown{
+    display: block;
+}
+.About{
+    overflow: visible !important; 
+   
+}
