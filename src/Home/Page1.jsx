@@ -176,7 +176,7 @@ function Page1(){
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-      style={{height:300 ,overflow: 'visible'}}
+      style={{height:300 ,overflow: 'hidden'}}
     >
       <SwiperSlide style={{}} className="slide"><div className="circle2"><div className="circle"><SiCyberdefenders color="white" fontSize={100} /></div></div>
         <h2 style={{textIndent:30, padding:30}}>Expertise that Drives Success. From Software Solutions to Cutting-Edge Cybersecurity</h2>
