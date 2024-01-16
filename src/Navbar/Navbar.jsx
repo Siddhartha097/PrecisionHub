@@ -26,7 +26,7 @@ function Navbar(){
             <li className="About"><Link to="/About">About</Link>
             <div className="dropdown">
                 <ul>
-                <li><Link to={'#'}>Our Journey</Link></li>
+                <li><Link to='/our'>Our Journey</Link></li>
                         <li><Link to={'#'}>Let's Build the Future Together</Link></li>
                         <li><Link to={'#'}>Our Expertise</Link></li>
                         <li><Link to={'#'}>Reliability</Link></li>

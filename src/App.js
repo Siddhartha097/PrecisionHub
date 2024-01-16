@@ -8,12 +8,14 @@ import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
 import Navbar from './Navbar/Navbar';
 import Contact from './Contact/Contact';
+import Our from './About/Our';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
       <Navbar></Navbar>
       <Routes>
+        <Route path="/Our" element={<Our></Our>}></Route>
         <Route path='/Portfolio' element={<Portfolio></Portfolio>}></Route>
         <Route path='/' element={<Page1></Page1>}>
         </Route>
