@@ -54,7 +54,7 @@ function Page1(){
                 <div id="hero-shape-2"></div>
                 <div id="hero-shape-3"></div>
             </div>
-            <video autoPlay  muted> <source src={video} /></video>
+            <video autoPlay loop  muted> <source src={video} /></video>
         </div>
         <div id="page2">
             <div id="moving-text">
@@ -203,8 +203,10 @@ function Page1(){
     </div>
     <div class="copyright">
         <h4>All Copyrights Reserved by PRECISIONHUB IT INDUSTRIES PRIVATE LIMITED. CIN: U62099WB2023PTC264926. THANK
-            YOU. VISIT AGAIN.</h4>
+            YOU. VISIT AGAIN.</h4><br />
+        <h5>PrecisionHub IT Industries Private Limited: Since : 2023 CIN</h5>
     </div>
+
     <div id="full-screen"></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
