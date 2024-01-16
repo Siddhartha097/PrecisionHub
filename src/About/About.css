@@ -1,13 +1,24 @@
 .About:hover::after {
     background-color: transparent !important;
-    color: rgba(255, 255, 255, 0) !important;
-    overflow: visible!important;
+    color: rgba(255, 255, 255, 0) ;
+    overflow: visible;
+    bottom: 0;
+    border-radius: 0;
 }
 .About:hover a{
 color: rgb(91, 0, 144)!important;
 }
 .About::after{
     display: none;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
 }
 .About .dropdown {
     position:absolute !important;
