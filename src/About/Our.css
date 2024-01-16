@@ -1,29 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    color: #333;
-  }
-  
-  p {
-    color: #666;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Josefin+Sans:ital,wght@0,400;0,500;1,300;1,600&family=Jost:wght@100;200;300;400;600;700&family=Poppins:wght@100;300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap'); 
+.pageO1{
+    margin-left: 7vh;
+    background-color: rgb(47, 47, 47);
+    h1{
+        color: white;
+        font-size: 3vw;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        font-family: 'Inika', serif;
+    }
+    p{
+        color: white;
+        font-size: 2.1vw;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        padding-right: 2vw;
+        font-family: 'Italiana', sans-serif;
+    }
+    height: 100%;
+}
+.page011{
+    padding-top: 28vh;
+    background-color: rgb(18, 18, 18);
+    height: 2000px;
+}
