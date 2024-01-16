@@ -508,10 +508,10 @@ nav h3{
 
   }
   #nav-part2{
-    display: none;
+    display: block;
   }
   .open{
-    display: block !important;
+    display: none !important;
   }
   nav h3{
       display: block;
@@ -521,6 +521,18 @@ nav h3{
       font-size: 4vw;
       font-weight: 200;
       padding-left: 10vw;
+  }
+  .circle{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .circle2{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .glass{
+    height: 400px !important;
+  
   }
 }    
 
