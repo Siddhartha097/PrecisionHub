@@ -198,13 +198,13 @@ function Page1(){
     </div>
     <div id="fixed-images"></div>
     <div id="footer">
-        <h1>PrecisionHub</h1>
+        <h1 style={{textAlign:'center'}}>PrecisionHub</h1>
         <div id="footer-bottom"></div>
     </div>
     <div class="copyright">
-        <h4>All Copyrights Reserved by PRECISIONHUB IT INDUSTRIES PRIVATE LIMITED. CIN: U62099WB2023PTC264926. THANK
-            YOU. VISIT AGAIN.</h4><br />
-        <h5>PrecisionHub IT Industries Private Limited: Since : 2023 CIN</h5>
+        <h4 style={{fontSize:'18'}}>All Copyrights Reserved by PRECISIONHUB IT INDUSTRIES PRIVATE LIMITED. CIN: U62099WB2023PTC264926. THANK
+            YOU. VISIT AGAIN.</h4><br/>
+        <h5 style={{fontSize:'14'}}>PrecisionHub IT Industries Private Limited: Since : 2023 CIN</h5>
     </div>
 
     <div id="full-screen"></div>

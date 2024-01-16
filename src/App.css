@@ -462,7 +462,7 @@ nav h3{
 }
 
 .copyright {
-  height: 4vh;
+  height: 6vh;
   width: 100%;
   position: fixed;
   background-color: #efeae3;
@@ -473,6 +473,13 @@ nav h3{
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
+  h4{
+    font-size: 18px;
+  }
+  h5{
+    font-size: 14px;
+  }
+
 }
 
 /*----Ending of Footer----*/

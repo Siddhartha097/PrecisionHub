@@ -24,7 +24,7 @@ diverse industries.</p>
 
     </div>
     <div className='page011'>
-<div className="pageO1" style={{backgroundColor:'red'}}>
+<div className="pageO1" style={{backgroundColor:'orange', textAlign:'right'}}>
     <h1>Our Journey: <br/>
 PrecisionHub IT <br/>
 Industries Private <br/>
