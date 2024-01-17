@@ -74,8 +74,8 @@ const Our = () => {
                 </p>
             </div>
         </div>
-{/* onClick={Explore(open1,open2)} */}
-        <button  className='openBtn' type='button' ref={buttonOpen1}>
+
+        <button onClick={()=>{Explore(open1,open2)}} className='openBtn' type='button' ref={buttonOpen1}>
             Open
         </button>
 
