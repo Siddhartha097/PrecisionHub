@@ -2,9 +2,11 @@ import React from 'react'
 import './Our.css'
 const Our = () => {
   return (
+
+    
     <div className='inner'>
-    <div className='page011'>
-<div className="pageO1">
+    <div className='page0 page1'>
+<div className="page pages1">
     <h1>Our Journey: <br/>
 PrecisionHub IT <br/>
 Industries Private <br/>
@@ -23,8 +25,8 @@ diverse industries.</p>
 </div>
 
     </div>
-    <div className='page011'>
-<div className="pageO1" style={{backgroundColor:'orange', textAlign:'right'}}>
+    <div className='page0 page2' style={{backgroundColor:'#FF4B4B'}}>
+<div className="page pages2" style={{backgroundColor:'#FF7145', textAlign:'right'}}>
     <h1>Our Journey: <br/>
 PrecisionHub IT <br/>
 Industries Private <br/>
