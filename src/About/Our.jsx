@@ -5,6 +5,7 @@ const Our = () => {
 
     const open1 = useRef(null);
     const open2 = useRef(null);
+    const buttonOpen1 = useRef(null);
 
     const openn = (op) => {
   
@@ -17,12 +18,23 @@ const Our = () => {
         op.current.classList.add("animate2")
         console.log(open1.classList)
     }
+    const opennButn = (op) => {
+  
+        op.current.classList.add("ButnAnimate")
+        console.log(open1.classList)
+    }
+    //On click Function to clear page
+    function Explore(PageA, PageB){
+        PageA.current.classList.add("Remove1")
+        PageB.current.classList.add("Remove2")
+    }
 
     useEffect(()=>{
         // openn(open1)
         // opennRight(open2)
         setTimeout(()=>{openn(open1)},1301)
         setTimeout(()=>{opennRight(open2)},1300)
+        setTimeout(()=>{opennButn(buttonOpen1)},1600)
           
     }, [])
 
@@ -62,10 +74,10 @@ const Our = () => {
                 </p>
             </div>
         </div>
-
-        {/* <button onClick={() => {}} className='openBtn' type='button'>
+{/* onClick={Explore(open1,open2)} */}
+        <button  className='openBtn' type='button' ref={buttonOpen1}>
             Open
-        </button> */}
+        </button>
 
         <div className='page0 page2' style={{background: 'linear-gradient(to right ,  #da3535 60%, #f36b41fe)'}} ref={open2}>
             <div className="page pages2" style={{ textAlign:'right'}}>

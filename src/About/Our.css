@@ -44,15 +44,16 @@
 
     height: auto;
     font-size: 20px;
-    background: linear-gradient(to right, rgba(227, 58, 58, 0.817), rgba(42, 40, 40, 0.699));
+    background-color: rgb(227, 58, 58);
     /* background: linear-gradient(to left ,  #da3535 10%, #f36b41fe); */
     color: whitesmoke;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     text-align: center;
-    transition: all 1s ease;
+    transition: all 0.2s ease;
     letter-spacing: 0.2rem;
+    opacity: 0;
     /* #FF4B4B, #FF7145 */
 }
 
