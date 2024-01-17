@@ -4,11 +4,11 @@
   }
 
 .animate2 {
-  transform: translateX(-50%);
+  transform: translateX(-55%);
   transition: all 2s ease;
 }
 .animate3 {
-  transform: translateX(+50%);
+  transform: translateX(+45%);
   transition: all 2s ease;
 }
   #content , #content2 , #content3 {
