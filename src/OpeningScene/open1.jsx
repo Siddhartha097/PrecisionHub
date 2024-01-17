@@ -8,15 +8,16 @@ function Open1(){
       function openn(op){
   
         op.current.classList.add("animate")
-        console.log(open1.classList)}
+        console.log(open1.classList)
+      }
       
         //Add a class to trigger the CSS animation
-        useEffect(()=>{
-          setTimeout(()=>{openn(open3)},1061)
-          setTimeout(()=>{openn(open2)},2500)
-          setTimeout(()=>{openn(open1)},4000)
+      useEffect(()=>{
+        setTimeout(()=>{openn(open3)},1061)
+        setTimeout(()=>{openn(open2)},2500)
+        setTimeout(()=>{openn(open1)},4000)
           
-        })
+      })
     
         
 
