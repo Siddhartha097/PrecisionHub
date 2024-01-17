@@ -8,7 +8,7 @@
   transition: all 2s ease;
 }
 .animate3 {
-  transform: translateX(-30%);
+  transform: translateX(+50%);
   transition: all 2s ease;
 }
   #content , #content2 , #content3 {

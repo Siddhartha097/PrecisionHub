@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika&family=Josefin+Sans:ital,wght@0,400;0,500;1,300;1,600&family=Jost:wght@100;200;300;400;600;700&family=Poppins:wght@100;300;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap'); 
 .page{
-    margin-left: 7vh;
+    margin-left: 10vh;
     background-color: rgb(47, 47, 47);
     position: absolute;
     width: 90%;
+    padding-top: 5%;
     height: 90%;
     h1{
         color: white;
-        font-size: 3vw;
+        font-size: 2.8vw;
         padding-left: 5vw;
         padding-top: 5vw;
         font-family: 'Inika', serif;
+        min-height: 24vh;
     }
     p{
+
         color: white;
-        font-size: 2.1vw;
+        font-size: 3rem;
         padding-left: 5vw;
         padding-top: 5vw;
         padding-right: 2vw;
