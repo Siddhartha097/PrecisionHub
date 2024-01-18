@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './Our.css'
 
 const Our = () => {
@@ -6,6 +6,10 @@ const Our = () => {
     const open1 = useRef(null);
     const open2 = useRef(null);
     const buttonOpen1 = useRef(null);
+
+    const [ isFocused, setIsFocused ] = useState(true);
+
+    
 
     const openn = (op) => {
   
@@ -34,9 +38,8 @@ const Our = () => {
         // opennRight(open2)
         setTimeout(()=>{openn(open1)},1301)
         setTimeout(()=>{opennRight(open2)},1300)
-        // setTimeout(()=>{opennButn(buttonOpen1)},1600)
           
-    }, [scrollY])
+    }, [])
 
     return (
     <>
