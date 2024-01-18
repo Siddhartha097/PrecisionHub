@@ -1,6 +1,41 @@
 .main-container {
     padding-top: 10rem;
-    height: 100vh;
+    height: max-content;
     width: 100%;
     background-color: #efeae3;
+}
+.main-container h1{
+    font-size: 5vw;
+    margin: 2vw;
+    padding-left: 10px;
+    letter-spacing: -1px;
+    background: linear-gradient(to right, rgb(144, 0, 255) , rgba(255, 255, 255, 0)) ;
+    border-radius: 20px;
+    width: fit-content;
+    font-family: 'Inika', serif,;
+}
+.main-details{
+    display: flex;
+}
+.main-details-2 ul{
+    display: flex;
+    justify-content: space-between;
+}
+.main-container li{
+    list-style: none;
+    font-size: large;
+    color: black;
+    padding: 2vh 2vw;
+    border: 0.1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 30px rgba(146, 146, 146, 0.74);
+    margin: 2vw;
+    font-weight: 800;
+    letter-spacing: 0.08vw;
+    font-family: 'Italiana', sans-serif;
+}
+.main-container img{
+    margin:2vw;
+    width: 28vw;
+    border-radius: 10px;
+    outline: rgb(255, 255, 255) solid 0.5vw;
 }

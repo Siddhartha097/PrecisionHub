@@ -36,7 +36,7 @@ const Our = () => {
         setTimeout(()=>{opennRight(open2)},1300)
         // setTimeout(()=>{opennButn(buttonOpen1)},1600)
           
-    }, [scrollY])
+    }, [])
 
     return (
     <>
