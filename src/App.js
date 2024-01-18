@@ -12,6 +12,7 @@ import Our from './About/Our';
 import BuildFuture from './About/BuildFuture/BuildFuture';
 import Reliability from './About/Reliability/Reliability';
 import Expertise from './About/Expertise/Expertise';
+import Footer from './Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
         <Route path='About' element={<About />} />
         <Route path='Contact' element={<Contact />} />
       </Routes>
+      <Footer />
       </BrowserRouter>
     </div>
   );
