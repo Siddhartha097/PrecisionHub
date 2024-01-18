@@ -112,6 +112,11 @@ nav h3{
 /*--Starting of Hero Section--*/
 #center {
   height: 69vh;
+  @media screen and (max-width:600px) {
+    height: 40vh;
+    padding-top: 30vh;
+  
+  }
   width: 100%;
   /* background-color: orangered; */
   display: flex;
@@ -123,7 +128,7 @@ nav h3{
 
 #left h4 {
   width: 26vw;
-  font-size: 1.4vw;
+  font-size: 2vw;
   line-height: 2vw;
 }
 
