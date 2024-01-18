@@ -9,19 +9,23 @@ import Portfolio from './Portfolio/Portfolio';
 import Navbar from './Navbar/Navbar';
 import Contact from './Contact/Contact';
 import Our from './About/Our';
+import BuildFuture from './About/BuildFuture/BuildFuture';
+import Reliability from './About/Reliability/Reliability';
+import Expertise from './About/Expertise/Expertise';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar></Navbar>
+      <Navbar />
       <Routes>
-        <Route path="/Our" element={<Our></Our>}></Route>
-        <Route path='/Portfolio' element={<Portfolio></Portfolio>}></Route>
-        <Route path='/' element={<Page1></Page1>}>
-        </Route>
-        <Route path='About' element={<About/>}>
-        </Route>
-        <Route path='Contact' element={<Contact></Contact>}></Route>
+        <Route path='buildFuture' element={<BuildFuture />} />
+        <Route path='expertise' element={<Expertise />} />
+        <Route path='reliability' element={<Reliability />} />
+        <Route path="/Our" element={<Our />} />
+        <Route path='/Portfolio' element={<Portfolio></Portfolio>} />
+        <Route path='/' element={<Page1 />} />
+        <Route path='About' element={<About />} />
+        <Route path='Contact' element={<Contact />} />
       </Routes>
       </BrowserRouter>
     </div>

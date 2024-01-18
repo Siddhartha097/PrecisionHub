@@ -25,9 +25,9 @@ function Navbar(){
                 <div className="dropdown">
                     <ul>
                         <li><Link to='/our'>Our Journey</Link></li>
-                        <li><Link to={'#'}>Let's Build the Future Together</Link></li>
-                        <li><Link to={'#'}>Our Expertise</Link></li>
-                        <li><Link to={'#'}>Reliability</Link></li>
+                        <li><Link to={'buildFuture'}>Let's Build the Future Together</Link></li>
+                        <li><Link to={'expertise'}>Our Expertise</Link></li>
+                        <li><Link to={'reliability'}>Reliability</Link></li>
                     </ul>
                 </div>
             </li>
