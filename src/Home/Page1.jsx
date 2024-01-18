@@ -197,7 +197,10 @@ function Page1(){
 
     </div>
     <div id="fixed-images"></div>
-    
+    <div id="footer">
+        <h1 style={{textAlign:'center'}}>PrecisionHub</h1>
+        <div id="footer-bottom"></div>
+    </div>
 
     <div id="full-screen"></div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
