@@ -36,11 +36,11 @@ const Our = () => {
         setTimeout(()=>{opennRight(open2)},1300)
         // setTimeout(()=>{opennButn(buttonOpen1)},1600)
           
-    }, [])
+    }, [scrollY])
 
     return (
     <>
-        <div className='inner'>
+        <div className='inner1'>
             <div className='page0 page1' style={{background: 'linear-gradient(to left ,  black 70%, gray)'}} ref={open1}>
                 <div className="page pages1"  >
                     <h1>
@@ -106,7 +106,7 @@ const Our = () => {
                 </div>
             </div>   
         </div>
-        <div className='inner'>
+        <div className='inner2' style={{paddingTop:'100vh'}}>
             <div className='page0 page1' style={{background: 'linear-gradient(to left ,  black 70%, gray)'}} ref={open1}>
                 <div className="page pages1"  >
                     <h1>
@@ -172,7 +172,7 @@ const Our = () => {
                 </div>
             </div>   
         </div>
-        <div className='inner'>
+        <div className='inner3' style={{paddingTop:'100vh'}}>
             <div className='page0 page1' style={{background: 'linear-gradient(to left ,  black 70%, gray)'}} ref={open1}>
                 <div className="page pages1"  >
                     <h1>
