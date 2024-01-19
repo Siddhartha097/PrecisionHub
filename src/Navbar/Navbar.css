@@ -15,8 +15,9 @@
   
   
   nav {
-    /* background-color: #000000; */
     /* height: 9rem; */
+    /* background: linear-gradient(to bottom, #000000, #2c2b2b); */
+    background-color: #dadada;
     height: 100%;
     width: 100%;
     display: flex;
@@ -24,7 +25,8 @@
     justify-content: space-between;
     position: absolute;
     top: 0;
-    padding: 25px 5vw 14px 10px;
+    padding: 6vh 5vw 5vh 2vw;
+    /* color: wheat !important; */
   }
   nav h3{
     display: none;

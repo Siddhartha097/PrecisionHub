@@ -10,8 +10,9 @@ const Home = () => {
       </div>
 
       <div className='home-page2'>
-        <h1>This is Part2</h1>
-
+        <h1>
+          This is Part2
+        </h1>
         <div className='page2-contents'>
           <div className='page-left'>
             <img src='https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG9mZmljZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D' alt='left' />
@@ -31,6 +32,34 @@ const Home = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className='home-page3'>
+        <div className='page3-contents'>
+          <div className='content-upper'>
+            <h1>Business Hours</h1>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur.
+            </p>
+          </div>
+          <div className='content-lower'>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut illum culpa consequuntur at laudantium odit.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero sed praesentium eligendi? Dignissimos, quis!
+            </p>
+          </div>
+        </div>
+        <div className='page3-img'>
+          <img src='https://images.unsplash.com/photo-1504297050568-910d24c426d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG9mZmljZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D' alt='page3-img' />
         </div>
       </div>
     </div>

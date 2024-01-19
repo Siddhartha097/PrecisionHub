@@ -26,13 +26,11 @@ body {
   padding-top: 20vh;
 }
 #page1nav{
-  min-height: 10vh;
+  height: 8rem;
   width: 100%;
-  background-color: #efeae3;
   position: absolute;
-  padding: 0 2vw;
   overflow: visible;
-  z-index: 1000;
+  z-index: 20;
 }
 
 
