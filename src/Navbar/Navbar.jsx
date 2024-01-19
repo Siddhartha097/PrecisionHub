@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../Home/logo/title_icon.png"
-import logo2 from "../Home/img/logo.jpg"
+import logo2 from '../Home/img/logo.png'
 import './Navbar.css'
 
 
@@ -15,10 +15,10 @@ function Navbar(){
         console.log(nav.classList)
     }
     return(
-    <div id="page1nav" className="">
-    <nav>
+    // <div id="page1nav" className="">
+    <nav id="page1nav">
         <div id="logo-box">
-            <img src={logo} alt="logo"/>
+            <Link to={'/'}><img src={logo2} alt="logo"/></Link>
         </div>
         <div id="mobile-menu" onClick={menu}>
             <h3>menu</h3>
@@ -42,6 +42,7 @@ function Navbar(){
         </div>
 
     </nav>
-</div>)
+// </div>
+)
 }
 export default Navbar

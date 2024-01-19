@@ -1,23 +1,35 @@
 /* This is NAVBAR code */
 #logo-box img {
-    /* max-height: 15rem;
-    max-width: 16rem; */
-    width: 25%;
+    width: 20%;
     object-fit: contain;
+    text-align: center;
   }
   .glossy-black {
     background: linear-gradient(to bottom, #000000, #d1c8c8);
     border-radius: 10px; /* Adjust as needed */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     color: #ffffff; /* Text color, adjust as needed */
     padding: 20px; /* Adjust as needed */
   }
+
+  #page1nav{
+    height:10rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    position: absolute;
+    overflow: visible;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(to bottom, #000000, #424040);
+  }
   
   
-  nav {
-    /* height: 9rem; */
-    /* background: linear-gradient(to bottom, #000000, #2c2b2b); */
-    background-color: #dadada;
+  /* nav {
+    height: 9rem;
+    background: linear-gradient(to bottom, #000000, #2c2b2b);
+    background-color: transparent;
     height: 100%;
     width: 100%;
     display: flex;
@@ -26,8 +38,7 @@
     position: absolute;
     top: 0;
     padding: 6vh 5vw 5vh 2vw;
-    /* color: wheat !important; */
-  }
+  } */
   nav h3{
     display: none;
   }
@@ -73,7 +84,7 @@
   }
   
   #nav-part2 li a {
-    color: #000000bb;
+    color: white;
     text-decoration: none;
     position: relative;
     z-index: 9;
