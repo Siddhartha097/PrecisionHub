@@ -13,6 +13,7 @@ import BuildFuture from './About/BuildFuture/BuildFuture';
 import Reliability from './About/Reliability/Reliability';
 import Expertise from './About/Expertise/Expertise';
 import Footer from './Footer/Footer';
+import Home from './Home/Home';
 function App() {
   return (
     <div className="App">
@@ -24,7 +25,7 @@ function App() {
         <Route path='reliability' element={<Reliability />} />
         <Route path="/Our" element={<Our />} />
         <Route path='/Portfolio' element={<Portfolio></Portfolio>} />
-        <Route path='/' element={<Page1 />} />
+        <Route path='/' element={<Home />} />
         <Route path='About' element={<About />} />
         <Route path='Contact' element={<Contact />} />
       </Routes>
