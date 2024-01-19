@@ -5,11 +5,31 @@
     padding-bottom: 7rem;
 }
 
+
+
+.page1-title {
+    position: absolute;
+    background-color: #f6eeee73;
+    opacity: 0;
+    font-size: 20rem;
+    width: 100%;
+    height: 100%;
+    transition: 2s all ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .home-img img{
     width: 100%;
     height: max-content;
     object-fit: contain;
+    transition: all 2s ease;
 }
+
+/* .home-img:hover .page1-title {
+    opacity: 0.8;
+} */
 
 .home-page2 {
     padding: 5vh 10vw;
