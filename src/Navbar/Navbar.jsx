@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../Home/logo/title_icon.png"
+import logo2 from "../Home/img/logo.jpg"
 import './Navbar.css'
 
 
