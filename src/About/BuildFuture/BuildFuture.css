@@ -18,6 +18,7 @@
 .main-container li:hover{
         color: white;
         background-color: green;
+        cursor: pointer;
     }
 .main-details{
     display: flex;

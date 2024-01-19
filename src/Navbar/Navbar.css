@@ -1,7 +1,9 @@
 /* This is NAVBAR code */
 #logo-box img {
-    max-height: 15rem;
-    max-width: 16rem;
+    /* max-height: 15rem;
+    max-width: 16rem; */
+    width: 25%;
+    object-fit: contain;
   }
   .glossy-black {
     background: linear-gradient(to bottom, #000000, #d1c8c8);
@@ -13,14 +15,16 @@
   
   
   nav {
-    height: 9rem;
+    /* background-color: #000000; */
+    /* height: 9rem; */
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
+    position: absolute;
     top: 0;
-    padding-right: 10vw;
+    padding: 25px 6vw 14px 10px;
   }
   nav h3{
     display: none;
@@ -29,7 +33,7 @@
   #nav-part2 {
     display: flex;
     align-items: center;
-    gap: 4vw;
+    gap: 3vw;
   }
   
   /* #logo-box{
@@ -38,7 +42,7 @@
   } */
   #nav-part2 li {
     list-style: none;
-    padding: 6px 16px;
+    padding: 5px 15px;
     border: 1px solid rgba(0, 0, 0, 0.434);
     border-radius: 50px;
     font-weight: 600;
