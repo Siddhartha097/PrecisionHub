@@ -110,7 +110,7 @@ const Our = () => {
             </div>   
         </div>
         <div className='inner' >
-            <div className='page0 page1' style={{background: 'linear-gradient(to left ,  black 70%, gray)'}} ref={open1}>
+            <div className='page0 page1' style={{background: 'linear-gradient(to right ,  #da3535 60%, #f36b41fe)'}} ref={open1}>
                 <div className="page pages1"  >
                     <h1>
                         Our Journey: PrecisionHub IT 
@@ -147,7 +147,7 @@ const Our = () => {
                 Open
             </button> */}
 
-            <div className='page0 page2' style={{background: 'linear-gradient(to right ,  #da3535 60%, #f36b41fe)'}} ref={open2}>
+            <div className='page0 page2'  style={{background: 'linear-gradient(to left ,  black 70%, gray)'}} ref={open2}>
                 <div className="page pages2" >
                     <h1>
                         Inception and Vision
