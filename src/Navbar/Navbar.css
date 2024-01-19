@@ -1,0 +1,80 @@
+/* This is NAVBAR code */
+#logo-box img {
+    max-height: 15rem;
+    max-width: 16rem;
+  }
+  .glossy-black {
+    background: linear-gradient(to bottom, #000000, #d1c8c8);
+    border-radius: 10px; /* Adjust as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    color: #ffffff; /* Text color, adjust as needed */
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  
+  nav {
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding-right: 10vw;
+  }
+  nav h3{
+    display: none;
+  }
+  
+  #nav-part2 {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+  }
+  
+  /* #logo-box{
+    max-height: max-content;
+    max-width: max-content;
+  } */
+  #nav-part2 li {
+    list-style: none;
+    padding: 6px 16px;
+    border: 1px solid rgba(0, 0, 0, 0.434);
+    border-radius: 50px;
+    font-weight: 600;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+  }
+  
+  #nav-part2 li::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+  }
+  
+  #nav-part2 li:hover::after {
+    bottom: 0;
+    border-radius: 0;
+  }
+  
+  #nav-part2 li a {
+    color: #000000bb;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+  }
+  
+  #nav-part2 li:hover a {
+    color: #efeae3;
+  }
+  
+  /*----End of Navbar Code----*/

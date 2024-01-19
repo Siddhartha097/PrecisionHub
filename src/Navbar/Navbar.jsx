@@ -1,22 +1,25 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../Home/logo/title_icon.png"
+import './Navbar.css'
+
+
 function Navbar(){
 
     function menu(){
        let nav =document.getElementById("nav-part2")
-       let menuu = document.getElementById("monile-menu")
+       let menu = document.getElementById("mobile-menu")
 
         nav.classList.toggle("open")
         console.log(nav.classList)
     }
     return(
-    <div id="page1nav">
+    <div id="page1nav" className="">
     <nav>
         <div id="logo-box">
             <img src={logo} alt="logo"/>
         </div>
-        <div id="monile-menu" onClick={menu}>
+        <div id="mobile-menu" onClick={menu}>
             <h3>menu</h3>
         </div>
         <div id="nav-part2" className="navv open " >
