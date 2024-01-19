@@ -9,11 +9,16 @@
     margin: 2vw;
     padding-left: 10px;
     letter-spacing: -1px;
-    background: linear-gradient(to right, rgb(144, 0, 255) , rgba(255, 255, 255, 0)) ;
+    background: linear-gradient(to right, rgb(19, 104, 6) , rgba(255, 255, 255, 0)) ;
     border-radius: 20px;
     width: fit-content;
-    font-family: 'Inika', serif,;
+    font-family: 'Inika', serif;
+    
 }
+.main-container li:hover{
+        color: white;
+        background-color: green;
+    }
 .main-details{
     display: flex;
 }
