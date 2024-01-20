@@ -23,7 +23,7 @@ function Navbar(){
         <div id="mobile-menu" onClick={menu}>
             <h3>menu</h3>
         </div>
-        <div id="nav-part2" className="navv open " >
+        <div id="nav-part2" className="navv open" >
             <li><Link to="/">Home</Link></li>
             <li className="About"><Link to="/About">About</Link>
                 <div className="dropdown">

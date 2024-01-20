@@ -9,10 +9,10 @@
 
 .page1-title {
     position: absolute;
-    background-color: #f6eeee73;
+    color: white;
     opacity: 0;
-    font-size: 20rem;
-    width: 100%;
+    font-size: 16rem;
+    width: 90%;
     height: 100%;
     transition: 2s all ease;
     display: flex;
@@ -20,16 +20,19 @@
     justify-content: center;
 }
 
-.home-img img{
+
+.home-img {
+    background-image: url('https://images.unsplash.com/photo-1622126807280-9b5b32b28e77?q=80&w=2060&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     width: 100%;
-    height: max-content;
+    height: 100vh;
     object-fit: contain;
     transition: all 2s ease;
 }
 
-/* .home-img:hover .page1-title {
-    opacity: 0.8;
-} */
+
+.home-img:hover .page1-title {
+    opacity: 1;
+}
 
 .home-page2 {
     padding: 5vh 10vw;
@@ -60,6 +63,7 @@
 
 .page-left img {
     object-fit: contain;
+    width: 70%;
 }
 
 .page-left h3 {
@@ -84,6 +88,7 @@
 }
 
 .page-right img {
+    width: 70%;
     object-fit: contain;
 }
 
@@ -103,9 +108,12 @@
     display: flex;
     padding: 4vh 10vw;
     width: 100%;
-    height: 100%;
+    height: 100vw;
     align-items: center;
     justify-content: space-between;
     background-color: black;
     color: aliceblue;
+}
+.home-page3 img{
+    height: 50vw;
 }

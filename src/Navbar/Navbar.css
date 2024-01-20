@@ -1,6 +1,6 @@
 /* This is NAVBAR code */
 #logo-box img {
-    width: 20%;
+    width: 30%;
     object-fit: contain;
     text-align: center;
   }
@@ -12,7 +12,7 @@
   }
 
   #page1nav{
-    height:11rem;
+    height:13rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
     width: 100%;
     position: absolute;
@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 26px 30px;
-    background: linear-gradient(to bottom, #000000, #424040);
+    background: linear-gradient(to right, #000000, #424040);
   }
   
   
@@ -64,7 +64,7 @@
     position: relative;
     font-size: 18px;
     overflow: hidden;
-    border: 0.6px solid #ededed;
+    border: 2px solid #ededed;
   }
   
   #nav-part2 li::after {

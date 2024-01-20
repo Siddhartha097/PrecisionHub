@@ -417,21 +417,22 @@ body {
   nav img{
       height: 22vh;
   }
-  
-  #nav-part2 {
-    display: none;
-
-  }
-  #nav-part2{
-    display: block;
-  }
   .open{
     display: none !important;
+  }  
+  #nav-part2 {
+    display: block;
+
+  }
+
+  #mobile-menu{
+    display: block;
   }
   nav h3{
-      display: block;
+      display: block !important;
       padding: 3vw 5vw;
-      border: 1px solid #ababab;
+      border: 1px solid #ffffff;
+      color: white;
       border-radius: 50px;
       font-size: 4vw;
       font-weight: 200;
