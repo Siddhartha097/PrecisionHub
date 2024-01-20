@@ -43,7 +43,7 @@
     display: none;
   }
   
-  #nav-part2 {
+  .navv{
     display: flex;
     align-items: center;
     gap: 3vw;

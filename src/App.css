@@ -418,11 +418,18 @@ body {
       height: 22vh;
   }
   .open{
-    display: none !important;
+    display: block !important;
   }  
   #nav-part2 {
-    display: block;
+    display: none ;
+    height: 60%;
 
+  }
+  .dropdown ul {
+  
+    width: 30vw!important;
+    right: 100%;
+    position: absolute;
   }
 
   #mobile-menu{
