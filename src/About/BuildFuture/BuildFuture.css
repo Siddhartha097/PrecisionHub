@@ -45,3 +45,15 @@
     border-radius: 10px;
     outline: rgb(255, 255, 255) solid 0.5vw;
 }
+@media (max-width: 767px) {
+    .main-container
+    {
+        padding-top: 40vw;
+    }
+    .main-details-2 li{
+        width: 20vw;
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+}
