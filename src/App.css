@@ -408,43 +408,7 @@ body {
   }
 
   
-  nav {
-      padding: 8vw 0;
-      width: 100%;
-      height: fit-content;
-  }
-
-  nav img{
-      height: 22vh;
-  }
-  .open{
-    display: block !important;
-  }  
-  #nav-part2 {
-    display: none ;
-    height: 60%;
-
-  }
-  .dropdown ul {
   
-    width: 30vw!important;
-    right: 100%;
-    position: absolute;
-  }
-
-  #mobile-menu{
-    display: block;
-  }
-  nav h3{
-      display: block !important;
-      padding: 3vw 5vw;
-      border: 1px solid #ffffff;
-      color: white;
-      border-radius: 50px;
-      font-size: 4vw;
-      font-weight: 200;
-      padding-left: 10vw;
-  }
   .circle{
     width: 100px !important;
     height: 100px !important;
