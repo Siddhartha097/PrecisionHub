@@ -63,9 +63,9 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className='page3-img'>
-          <img src='https://images.unsplash.com/photo-1504297050568-910d24c426d3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG9mZmljZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D' alt='page3-img' />
-        </div>
+        <img className='page3-img' src='https://images.unsplash.com/photo-1504297050568-910d24c426d3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt='page3-img' />
+        {/* <div className='page3-img'>   
+        </div> */}
       </div>
     </div>
   )

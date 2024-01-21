@@ -103,6 +103,11 @@
   #nav-part2 li:hover a {
     color: #efeae3;
   }
+
+  .sub-menu li{
+    border-radius: 30px!important;
+    margin-top: 10px!important;
+  }
   
   /*----End of Navbar Code----*/
 

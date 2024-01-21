@@ -36,7 +36,7 @@ function Navbar(){
             <li><Link to="/">Home</Link></li>
             <li className="About"><Link to="/About">About</Link>
                 <div className="dropdown">
-                    <ul className="submenu">
+                    <ul className="sub-menu">
                         <li><Link to='/our'>Our Journey</Link></li>
                         <li><Link to={'buildFuture'}>Let's Build the Future Together</Link></li>
                         <li><Link to={'expertise'}>Our Expertise</Link></li>
