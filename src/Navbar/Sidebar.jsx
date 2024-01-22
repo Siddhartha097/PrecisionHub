@@ -3,17 +3,21 @@ import { Link } from 'react-router-dom';
 import './Sidebar.css'; 
 
 const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
- 
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // const openSidebar = () => {
+  //   setIsOpen(!isOpen);
+  // };
 
   return (
     <div id='' className={`sidebar  ${isSidebarOpen ? 'open' : ''}`}>
-      <button className="side-button" onClick={toggleSidebar}>
+      <button className="side-button">
         ☰
       </button>
-      <ul>
-        <li><Link to="/">Home</Link></li>
+      <ul >
+        <li><Link onClick={toggleSidebar} to="/">Home</Link></li>
         <li className="">
-          <Link to="/About">About</Link>
+          <Link onClick={toggleSidebar} to="/About">About</Link>
           <div className="about-submenu">
             <ul className='submenu'>
               <li><Link to='/our'>Our Journey</Link></li>
@@ -23,10 +27,10 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
             </ul>
           </div>
         </li>
-        <li><Link to="/Portfolio">Portfolio</Link></li>
-        <li><Link to="#">Solutions</Link></li>
-        <li><Link to="#">Researches</Link></li>
-        <li><Link to="/Contact">Contact</Link></li>
+        <li><Link onClick={toggleSidebar} to="/Portfolio">Portfolio</Link></li>
+        <li><Link onClick={toggleSidebar} to="#">Solutions</Link></li>
+        <li><Link onClick={toggleSidebar} to="#">Researches</Link></li>
+        <li><Link onClick={toggleSidebar} to="/Contact">Contact</Link></li>
       </ul>
     </div>
   );
