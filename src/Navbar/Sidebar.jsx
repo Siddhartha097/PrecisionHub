@@ -11,7 +11,7 @@ const Sidebar = ({ isSidebarOpen, toggleSidebar }) => {
 
   return (
     <div id='' className={`sidebar  ${isSidebarOpen ? 'open' : ''}`}>
-      <button className="side-button">
+      <button onClick={toggleSidebar} className="side-button">
         ☰
       </button>
       <ul >
