@@ -1,10 +1,7 @@
 .home-main {
     width: 100%;
     height: 100%;
-    padding-top: 12rem;
 }
-
-
 
 .home-page1 {
     position: relative;
@@ -41,12 +38,6 @@
     filter: blur(0px);
 }
 
-/* .hover-image img {
-    display: block;
-    width: 100%; 
-    height: 100%; 
-  } */
-
 .home-page1:hover .page1-title {
     opacity: 1;
     transform: translate(-50%, -50%);
@@ -55,9 +46,6 @@
 .home-page1:hover .page1-img {
     filter: blur(5px);
 }
-
-
-
 
 .home-page2 {
     padding: 5vh 10vw;
@@ -74,7 +62,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 5vh;
-    gap: 5vw;
+    gap: 15vh;
 }
 
 .page-left {
@@ -88,7 +76,7 @@
 
 .page-left img {
     object-fit: contain;
-    width: 70%;
+    width: 100%;
 }
 
 .page-left h3 {
@@ -113,7 +101,7 @@
 }
 
 .page-right img {
-    width: 70%;
+    width: 100%;
     object-fit: contain;
 }
 
@@ -154,30 +142,55 @@
     line-height: 3rem;
 }
 
-.content-lower {
-    
-}
-
 .page3-img{
     width: 55%;
     object-fit: contain;
 }
 
-
-/* .page3-img img{
-    height: 100%;
-    width: 100%;
-    
-    object-fit: contain;
-} */
-
-/* .page3-img {
-    background-image: url('https://plus.unsplash.com/premium_photo-1683880731792-39c07ceea617?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-} */
-
 @media screen and (max-width: 768px){
     .home-main{
         padding-top: 10rem;
+    }
+
+    .home-page1 {
+        object-fit: contain;
+        height: 50vh;
+    }
+
+    .page1-title {
+        font-size: 8rem;
+    }
+
+    .page1-img {
+        background-size: fill;
+    }
+
+    .home-page2 {
+        padding: 4vh;
+    }
+
+    .home-page2 h1 {
+        font-size: 4rem;
+        /* text-align: center; */
+    }
+
+    .page2-contents {
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        flex-direction: column;
+        gap: 6vh;
+    }
+
+    .page2-contents img {
+        width: 100%;
+    }
+
+    .page-left {
+        width: 100%;
+    }
+
+    .page-right {
+        width: 100%;
     }
 
     .home-page3 {

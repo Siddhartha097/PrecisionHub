@@ -2,7 +2,7 @@
 .copyright {
   height: max-content;
   position: relative;
-  padding: 16px;
+  padding: 14px;
   width: 100%;
   background: linear-gradient(to right, #000000, #605c5c);  
   color: aliceblue;
@@ -14,7 +14,7 @@
   gap: 10px;
   }
   .copyright h4{
-    font-size: 23px;
+    font-size: 20px;
   }
   .copyright h5{
     font-size: 14px;
@@ -38,7 +38,7 @@
   height: 100%;
   opacity: 0.5;
   filter: blur(2px);
-  background-color: #081b2996;
+  background-color: #383e4496;
   z-index: -1; 
 }
 
@@ -96,5 +96,9 @@
 
   .social-list {
     padding-top: 15%;
+  }
+
+  .copyright h4{
+    font-size: 14px;
   }
 }
