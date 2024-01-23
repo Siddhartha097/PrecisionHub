@@ -16,12 +16,20 @@
     left: 50%;
     transform: translate(0%, -50%);
     text-align: center;
+    height: 100%;
+    width: 100%;
     opacity: 0;
     transition: opacity all 2s ease-in-out;
     z-index: 10;
-    font-size: 15rem;
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh;
     font-weight: 400;
-    color: aliceblue;
+    color: rgb(219, 205, 205);
+    background: #534f4f5c;
+    cursor: pointer;
 }
 
 .page1-img{
@@ -41,6 +49,7 @@
 .home-page1:hover .page1-title {
     opacity: 1;
     transform: translate(-50%, -50%);
+
 }
 
 .home-page1:hover .page1-img {
@@ -157,9 +166,9 @@
         height: 50vh;
     }
 
-    .page1-title {
-        font-size: 8rem;
-    }
+    /* .page1-title {
+        font-size: ;
+    } */
 
     .page1-img {
         background-size: fill;
