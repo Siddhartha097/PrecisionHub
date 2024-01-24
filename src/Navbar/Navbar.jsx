@@ -34,9 +34,12 @@ function Navbar(){
         
         <div id="nav-part2" className="navv" >
             <li><Link to="/">Home</Link></li>
+            <li><Link to="#">Solutions</Link></li>
+            <li><Link to="#">Researches</Link></li>
+            <li><Link to="/Portfolio">Portfolio</Link></li>
             <li className="About"><Link to="/About">About</Link>
                 <div className="dropdown">
-                    <ul className="sub-menu">
+                    <ul className="sub-menu" style={{textAlign: 'center'}}>
                         <li><Link to='/our'>Our Journey</Link></li>
                         <li><Link to={'buildFuture'}>Let's Build the Future Together</Link></li>
                         <li><Link to={'expertise'}>Our Expertise</Link></li>
@@ -44,9 +47,6 @@ function Navbar(){
                     </ul>
                 </div>
             </li>
-            <li><Link to="/Portfolio">Portfolio</Link></li>
-            <li><Link to="#">Solutions</Link></li>
-            <li><Link to="#">Researches</Link></li>
             <li><Link to="/Contact">Contact</Link></li>       
         </div>
         <div>
