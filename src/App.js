@@ -1,8 +1,5 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Page1 from './Home/Page1';
-import Open1 from './OpeningScene/open1';
-import { ReactDOM } from 'react';
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import About from './About/About';
 import Portfolio from './Portfolio/Portfolio';
@@ -14,7 +11,9 @@ import Reliability from './About/Reliability/Reliability';
 import Expertise from './About/Expertise/Expertise';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
-function App() {
+
+
+const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
