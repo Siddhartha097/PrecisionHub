@@ -1,5 +1,9 @@
 import React from 'react'
-import './Home.css'
+import './Home.css';
+import Image1 from './img/BussinessIntelligence.svg';
+import Image2 from './img/helpdesk.svg';
+import Image3 from './img/WebServices.svg';
+
 
 const Home = () => {
   return (
@@ -21,7 +25,7 @@ const Home = () => {
         </h1>
         <div className='page2-contents'>
           <div className='page-left'>
-            <img src='https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG9mZmljZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D' alt='left' />
+            <img src={Image2} alt='left' />
             <div className='page-left_content'>
               <h3>Article1</h3>
               <p>
@@ -30,7 +34,7 @@ const Home = () => {
             </div>
           </div>
           <div className='page-right'>
-            <img src='https://images.unsplash.com/photo-1543248939-4296e1fea89b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG9mZmljZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D' alt='right' />
+            <img src={Image3} alt='right' />
             <div className='page-right_content'>
               <h3>Article2</h3>
               <p>
