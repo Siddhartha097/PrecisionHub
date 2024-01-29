@@ -3,6 +3,7 @@ import './Home.css';
 import Image1 from './img/BussinessIntelligence.svg';
 import Image2 from './img/helpdesk.svg';
 import Image3 from './img/WebServices.svg';
+import Card from '../components/Card/Card';
 
 
 const Home = () => {
@@ -23,25 +24,45 @@ const Home = () => {
         <h1>
           This is Part2
         </h1>
-        <div className='page2-contents'>
-          <div className='page-left'>
-            <img src={Image2} alt='left' />
-            <div className='page-left_content'>
-              <h3>Article1</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.
-              </p>
-            </div>
-          </div>
-          <div className='page-right'>
-            <img src={Image3} alt='right' />
-            <div className='page-right_content'>
-              <h3>Article2</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.
-              </p>
-            </div>
-          </div>
+        <div className='page2-cards'>
+          <section className='cards-section'>
+            <Card 
+              title={'Article1'}  
+              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.'}
+              image={Image2}
+            />
+            <Card 
+              title={'Article2'}  
+              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.'}
+              image={Image1}
+              align={'center'}
+            />
+            <Card 
+              title={'Article3'}  
+              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.'}
+              image={Image3}
+              align={'right'}
+            />
+          </section>
+          <section className='cards-section'>
+            <Card 
+              title={'Article4'}  
+              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.'}
+              image={Image2}
+            />
+            <Card 
+              title={'Article5'}  
+              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.'}
+              image={Image1}
+              align={'center'}
+            />
+            <Card 
+              title={'Article6'}  
+              content={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis nesciunt dicta labore quibusdam amet suscipit optio iure sit corrupti excepturi.'}
+              image={Image3}
+              align={'right'}
+            />
+          </section>
         </div>
       </div>
 
