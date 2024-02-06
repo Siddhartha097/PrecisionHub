@@ -22,9 +22,9 @@ const Footer = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni?</p>
         </div>
         <div className='right-footer'>
-          <h4>
-            hell@reallyguestsite.com
-          </h4>
+          <>
+            md@precisionsolutions.online
+          </>
         </div>
       </div>
       <div className="copyright">

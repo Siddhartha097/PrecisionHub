@@ -1,6 +1,5 @@
 
 .copyright {
-  height: ;
   position: relative;
   padding: 14px;
   width: 100%;
@@ -37,7 +36,6 @@
   width: 100%;
   height: 100%;
   opacity: 0.4;
-  filter:;
   background-color: #b8babb96;
   z-index: -1; 
 }
@@ -85,6 +83,7 @@
 }
 
 .right-footer {
+  text-transform: lowercase;
   font-size: 15px;
 }
 
