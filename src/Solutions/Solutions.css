@@ -9,9 +9,9 @@
 .solutions_one {
     display: flex;
     flex-direction: column;
-    padding: 10rem;
+    /* padding: 10rem;
     gap: 20px;
-    min-height: 100vh;
+    min-height: 100vh; */
 }
 
 .One_title {
@@ -29,7 +29,7 @@
 .solutions_two {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .Two_title {
