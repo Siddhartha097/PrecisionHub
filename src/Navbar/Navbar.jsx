@@ -34,7 +34,7 @@ function Navbar(){
         
         <div id="nav-part2" className="navv" >
             <li><Link to="/">Home</Link></li>
-            <li><Link to="#">Solutions</Link></li>
+            <li><Link to="/solutions">Solutions</Link></li>
             <li><Link to="#">Researches</Link></li>
             <li><Link to="/Portfolio">Portfolio</Link></li>
             <li className="About"><Link to="/About">About</Link>

@@ -11,6 +11,7 @@ import Reliability from './About/Reliability/Reliability';
 import Expertise from './About/Expertise/Expertise';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
+import Solutions from './Solutions/Solutions';
 
 
 const App = () => {
@@ -23,8 +24,9 @@ const App = () => {
           <Route path='expertise' element={<Expertise />} />
           <Route path='reliability' element={<Reliability />} />
           <Route path="/Our" element={<Our />} />
-          <Route path='/Portfolio' element={<Portfolio></Portfolio>} />
+          <Route path='/Portfolio' element={<Portfolio />} />
           <Route path='/' element={<Home />} />
+          <Route path='/solutions' element={<Solutions />} />
           <Route path='About' element={<About />} />
           <Route path='Contact' element={<Contact />} />
         </Routes>
